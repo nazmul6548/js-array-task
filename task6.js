@@ -27,7 +27,7 @@ function myFunc(getSeason) {
       break;
   }
 }
-myFunc(12)
+myFunc(2)
 
 
 

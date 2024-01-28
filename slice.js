@@ -12,3 +12,13 @@ const mySlice = ["apple","orange","banana","cat","cow"];
 // const textMes = "good for nothing";
 // const res = textMes.slice(2,-8);
 // console.log(res);
+
+
+const mySlicee = ["apple","orange","banana","cat","cow"];
+mySlicee.push("jambura")
+console.log(mySlicee);
+mySlicee.splice(0,1 ,"watermelon")
+console.log(mySlicee);
+mySlicee.pop();
+console.log(mySlicee);
+
