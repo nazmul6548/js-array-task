@@ -3,8 +3,8 @@
 // 2.substring
 // 3.substr
 // now we start slice
-const mySlice = ["apple","orange","banana","cat","cow"];
-// const result = mySlice.slice(2);
+// const mySlice = ["apple","orange","banana","cat","cow","hhh"];
+// const result = mySlice.slice(1,4);
 // console.log(result);
 
 // const output = mySlice.slice(1,-3);
@@ -52,6 +52,20 @@ const mySlice = ["apple","orange","banana","cat","cow"];
 
 
 
-var myArray = ["apple","banana","orange","tomato"]
-const myNumber =myArray[myArray.length-1]
-console.log(myNumber);
+// var myArray = ["apple","banana","orange","tomato"]
+// const myNumber =myArray[myArray.length-1]
+// console.log(myNumber);
+let text = "apple, banana,cat";
+let res =text.slice(0)
+console.log(res);
+
+// var age = "20.50";
+// var converted2 = parseInt(age)
+// console.log(converted2)
+
+// output: 20.5
+
+var text1 = "hello world";
+var output =text.charAt(0)
+var myChar=text.charAt(7);
+// console.log(output,myChar);
