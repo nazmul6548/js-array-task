@@ -9,10 +9,10 @@
 
 // const output = mySlice.slice(1,-3);
 // console.log(output);
-// const textMes = "good for nothing";
-// const res = textMes.slice(2,-8);
+const textMes = "good for nothing";
+const ress = textMes.slice(0,-8);
 
-// console.log(res);
+console.log(ress);
 // console.log(ttt);
 // var myLetter = 'a,b,c,d,e,f,g,h';
 // var result = myLetter.split();
@@ -57,7 +57,7 @@
 // console.log(myNumber);
 let text = "apple, banana,cat";
 let res =text.slice(0)
-console.log(res);
+// console.log(res);
 
 // var age = "20.50";
 // var converted2 = parseInt(age)
