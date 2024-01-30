@@ -9,7 +9,6 @@ while (loop < 200) {
   if (sum >= 100) {
     break;
   }
-  
 
   loop++;
 }
