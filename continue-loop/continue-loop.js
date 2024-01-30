@@ -13,7 +13,7 @@ for (let i = 55; i <= 85; i++) {
 
 // while examples
 let num = 55;
-while (num < 85) {
+while (num <= 85) {
     num++;
     if (num % 2 === 0) {
         continue;
